@@ -1,0 +1,22 @@
+{
+  "name": "aws-tools",
+  "version": "1.0.0",
+  "description": "tools to do things with aws cli",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node index.ts"
+  },
+  "author": "Diego Severini",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1221.0",
+    "dotenv": "^16.0.2",
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@types/prompt-sync": "^4.2.0"
+  }
+}
